@@ -1,0 +1,11 @@
+# Proguard rules for the app
+-keepattributes SourceFile,LineNumberTable
+-keep public class * extends java.lang.Exception
+-keep class * extends android.app.Activity
+-keep class * extends android.app.Service
+-keep class * extends android.content.BroadcastReceiver
+-keep class * extends android.content.ContentProvider
+-keep class * extends android.preference.Preference
+-keep public class * extends android.view.View
+-keep public static <fields>;
+-keep public static <methods>;
